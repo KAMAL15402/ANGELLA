@@ -5,6 +5,15 @@ body{
      font-family: cursive ;
 }
 
+.profile{
+ text-decoration: underline;
+}
+
+.intro{
+ width: 30%;
+ margin: auto;
+}
+
 .skill-row{
     width: 50%; 
     margin: 100px auto 100px auto;
@@ -42,6 +51,13 @@ h2{
 h3{
     color: #11999e ;
 }
+
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px 0;
+}
 .top{
     background-color: #e4f9f5;
     position: relative;
@@ -54,17 +70,73 @@ h3{
  margin-bottom: 100px 0;
 }
 
+a{
+    color: #11999e;
+    font-family: sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 1.5rem;
+    padding: 20px 0;
+
+}
 
 
-
-.bot{
-    position: absolute;
+.bottom{
+    background-color: #66BFBF;
     left: 300px;
     bottom: 300px;
+    padding: 50px 0 20px 0 ;
 }
+
+.contact-me{
+    width: 40%;
+    margin: 40px auto ;
+}
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #1199E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #1199E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #1199E);
+    background-image: -o-linear-gradient(top, #11CDD4, #1199E);
+    background-image: linear-gradient(to bottom, #11CDD4, #1199E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC48D);
+    text-decoration: none;
+  }
 
 .topcloud{
     position: absolute ;
     right: 300px;
+     top: 40px;
+}
+
+.botclo{
+    position: absolute ;
+    right: 250px;
      top: 50px;
 }
